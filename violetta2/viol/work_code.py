@@ -14,7 +14,7 @@ import openai
 
 open_tok = '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'
 
-openai.api_key = open_tok
+openai.api_key = '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'
 
 @dp.message_handler(commands=['start', 'help', 'перейти_в_меню'])
 async def start_commads(message: types.Message):
